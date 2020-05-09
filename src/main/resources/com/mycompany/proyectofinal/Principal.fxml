@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="87.0" prefWidth="606.0" style="-fx-background-color: EF6E0F;">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="59.0" layoutX="48.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-finlandés-48.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="68.0" layoutX="492.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-hulk-48.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="27.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crear un personaje" wrappingWidth="100.013671875" />
+            <Text layoutX="481.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de enemigos" />
+         </children>
+      </Pane>
+      <Pane layoutX="-3.0" layoutY="313.0" prefHeight="87.0" prefWidth="606.0" style="-fx-background-color: EF6E0F;">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="69.0" fitWidth="59.0" layoutX="37.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-marcapáginas-100.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="69.0" fitWidth="52.0" layoutX="267.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-espada-64.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="69.0" fitWidth="59.0" layoutX="495.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-eliminar-100.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="24.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar personaje" />
+            <Text layoutX="267.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Luchar!" />
+            <Text layoutX="484.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eliminar Personaje" />
+         </children>
+      </Pane>
+      <Text fill="#401d03" layoutX="74.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finish figthers" textAlignment="CENTER" wrappingWidth="452.400390625">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Text>
+      <Text layoutX="125.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Pulsa en algunas de las opciones para continuar..)" wrappingWidth="333.798828125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
